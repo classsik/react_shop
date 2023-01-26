@@ -1,0 +1,30 @@
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 50px);
+}
+
+.register__form {
+  display: flex;
+  flex-direction: column;
+  background: #eaeaea;
+  padding: 25px;
+  border-radius: 10px;
+  gap: 10px;
+  width: 240px;
+}
+
+.input {
+  height: 40px;
+  padding-left: 10px;
+}
+
+.input.error {
+  border: 3px solid red;
+}
+
+.button {
+  height: 40px;
+  margin-top: 30px;
+}

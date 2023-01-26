@@ -1,0 +1,25 @@
+.cart__inner {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.cart__item {
+  width: 100%;
+  margin-top: 30px;
+  padding: 10px;
+  background: #eaeaea;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &-button {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.cart__make {
+  margin-top: 50px;
+  padding: 10px;
+}

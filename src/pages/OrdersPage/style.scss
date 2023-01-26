@@ -1,0 +1,18 @@
+.orders__inner {
+  max-width: 1160px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.orders__item {
+  width: 100%;
+  padding: 15px;
+  background: #eaeaea;
+  margin-top: 30px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
